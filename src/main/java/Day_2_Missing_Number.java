@@ -1,6 +1,6 @@
 import java.util.*;
 public class Day_2_Missing_Number {
-    public static int findMissingNum(int arr[], int n)
+    public static int findMissingNum(int[] arr, int n)
     {
         Arrays.sort(arr);
         int Sum =0;
@@ -21,7 +21,7 @@ public class Day_2_Missing_Number {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter size of array:");
         int n = s.nextInt();
-        int arr[] = new int[n];
+        int[] arr = new int[n];
         System.out.println("Enter element in array:");
         for(int i=0;i<n;i++)
         {
